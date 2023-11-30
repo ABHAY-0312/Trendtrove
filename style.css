@@ -90,16 +90,18 @@ nav ul {
     display: inline-block;
     list-style-type: none;
 }
-
 nav ul li {
     display: inline-block;
     margin-right: 20px;
-
 }
 
 a {
     text-decoration: none;
     color: rgb(217 18 18);
+    transition: color 0.3s;
+}
+a:hover {
+    color: rgb(21, 43, 104);
 }
 
 p {
